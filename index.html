@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="inner">
+            <div class="container-logo">
+                <a href="#">
+                    Hackernews API - faizalanwar
+                </a>
+            </div>
+            <div class="fadein">
+                <a class="js-navbar" data-navbar="news">NEWS</a>
+                <a class="js-navbar" data-navbar="newest">NEWEST</a>
+                <a class="js-navbar" data-navbar="ask">ASK</a>
+                <a class="js-navbar" data-navbar="show">SHOW</a>
+                <a class="js-navbar" data-navbar="jobs">JOBS</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="news-view">
+        <div class="news-list-nav">
+            <span class="js-current-page">1</span>
+            <a class="js-next-page">Next ></a>
+        </div>
+
+        <!-- NEWS LIST -->
+        <div class="news-list">
+            <div class="view" id="container-lists">
+
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
